@@ -5,7 +5,9 @@
     font-family: 'Montserrat', serif;
     color: #fff;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 html,
 body {
     height: 100%;
@@ -53,6 +55,11 @@ body {
 #nav h4 {
     text-transform: uppercase;
     font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#nav h4:hover{
+    color: #95C11E;
 }
 
 #cursor {
